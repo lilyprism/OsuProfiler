@@ -39,7 +39,7 @@ namespace OsuProfiler
             InitializeComponent();
             timer.Interval = new TimeSpan(0, 0, 5);
             timer.Tick += Timer_Tick;
-            api = new osu_api.osuAPI("4a98a511a32966282204aa2638e461ee65b97c0e");
+            api = new osu_api.osuAPI("***********");
         }
 
         private void Timer_Tick(object sender, EventArgs e)
